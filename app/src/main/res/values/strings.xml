@@ -56,6 +56,15 @@
 
     <!-- Ritual Manipulations Strings -->
 
-    <string name="rit_manip_title"><b>Ritual Manipulations:</b></string>
+    <string name="rit_manip_title"><b>Ritual Manipulations</b></string>
+    <string name="rit_manip_casters_mark"><b>Caster\'s Mark</b>
+        \n\nThis allows the caster to add a small sigil or rune on the target of the ritual. This can be no larger than 3" on a side. This Mark will remain as long as the ritual with this ability remains on the item, and cannot be removed from the item while any rituals of this batch remain.
+        \nThis ability may only be taken once. Plot must approve the design of the sigil to be placed on the Item.
+        \nThe caster must have five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.</string>
+    <string name="rit_manip_improved_chance"><b>Improved Chance</b>
+        \n\nThis will add 1% success chance to the ritual being cast. This ability can only be used five times per ritual and never for a greater chance than 95%.
+        \n\nThis is accomplished by rolling either two ten-sided die (with one representing the “ten” column and one representing the “ones” column) or rolling one die twice – first for the tens digit then again for the ones digit.
+        \n\nThe caster must have five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
 
 </resources>
