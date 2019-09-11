@@ -7,19 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.DuringCastFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/during_casting"
-        android:textSize="14sp"
-        android:paddingTop="10sp"
-        android:paddingBottom="0sp"
-        android:paddingLeft="10sp"
-        android:paddingRight="10sp"
-        android:scrollbars = "vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/scrollView">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/during_casting"
+            android:textSize="14sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="0sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:scrollbars = "vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
