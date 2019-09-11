@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Alliance Ritual Marshal</string>
+    <string name="app_name">Alliance LARP Ritual Marshal</string>
 
     <!-- Before Casting Strings -->
 
-    <string name="begin_casting"><b>Get Ritual Ready:</b>
+    <string name="begin_casting"><b>Get Ritual Ready</b>
         \nUpon arrival, the ritual marshal will take the following steps, with which the players involved should cooperate:
         \n• Ritual marshal identifies the primary caster and any additional casters who will assist in the ritual;
         \n• Ritual marshal reviews the casters’ player cards to note how many levels of the appropriate school of Formal Magic they possess. Note that a Ritual Caster may choose to not use all of their Ritual Levels when casting if they so desire;
@@ -17,9 +17,9 @@
 
     <!-- During Casting Strings -->
 
-    <string name="during_casting"><b>Process of Ritual Casting:</b>
-        \nAfter the caster states “Begin ritual casting,” the following steps must occur before the ritual is deemed complete:
-        \n1. The ritual marshal calls a Hold;
+    <string name="during_casting"><b>Process of Ritual Casting</b>
+        \n\nAfter the caster states “Begin ritual casting,” the following steps must occur before the ritual is deemed complete:
+        \n\n1. The ritual marshal calls a Hold;
         \n2. If the recipient of the ritual is an individual, the ritual marshal will ask the recipient, “A ritual is being cast on you. Do you accept it?” (Note that a player must accept the rituals Banish to Other Plane, Divestiture, and Obliteration.) If the player says “no,” the ritual marshal must follow the rules set forth below under the heading “Unwilling Targets”;
         \n3. The ritual marshal makes sure that everyone in the Circle of Power is awake out-of-game.
         \n4. The ritual marshal assures that the properly begin;
@@ -29,26 +29,28 @@
         \n8. The ritual marshal determines if the ritual fails for any reason other than the die roll;
         \n9. The ritual marshal waits the duration of the ritual casting, in case a condition occurs that would cause an automatic backlash;
         \n10. Assuming the ritual has not automatically backlashed, the ritual marshal announces either “You have successfully completed the ritual” (if the ritual succeeded) or “Something has gone dreadfully wrong” (if it does not).
-        \nThe Ritual has now ended.
-        \n\n<b>Determine Success or Failure:</b>
-        \nAssuming no automatic failure or backlash occurs, the success or failure of the ritual is determined using a ten-sided die as follows:
-        \n• If the number is less than or equal to the Success Number and is not “0,” then the ritual succeeds.
+        \n\nThe Ritual has now ended.
+        \n\n<b>Determine Success or Failure</b>
+        \n\nAssuming no automatic failure or backlash occurs, the success or failure of the ritual is determined using a ten-sided die as follows:
+        \n\n• If the number is less than or equal to the Success Number and is not “0,” then the ritual succeeds.
         \n• If the number is greater than the Success Number or is “0,” then the ritual marshal rolls a second ten-sided die. Any result but a “0” on the second die roll indicates a flaw. A “0” on the second die roll indicates a backlash, which requires the ritual marshal to roll a third ten-sided die and look on the backlash table on the ritual scroll to determine the form of the back-lash.
-        \nA successful ritual follows the procedure set forth in “Success,” below. A ritual that fails or backlashes follows the procedure set forth in “Failure,” below.
-        \nSuccess: The ritual marshal either awards the successful caster a temporary tag for the ritual conducted or makes sure the ritual effect is carried out by informing the Plot Committee or by personally overseeing the ritual’s effect. A temporary tag allows the ritual marshal to write down the rituals conducted and indicate that a permanent tag for the ritual should be awarded at the end of the event or at the beginning of the next event that the recipient of the ritual attends.
-        \nThe temporary tag should indicate the ritual’s name, duration, recipient, effect of the ritual, and any other pertinent information. The temporary tag should be signed by the ritual marshal. If any skills or spells were placed within the recipient, the tags for those skills and spells should be attached to the temporary tag. Recipients should make sure the temporary tag has accurate information and is signed by the proper staff member(s).
-        \nPlease note that the Plot Committee reserves the right to assign plot effects that may not be set forth in the ritual scroll. When this occurs, the Plot Committee will likely designate such plot effects effective only in the local chapter.
-        \nFailure or Backlash: If the ritual fails or backlashes, a ritual marshal will determine the effect, if any, of the failure or backlash based on the scroll’s charts. Any lasting effects will be written on the player cards of any individuals affected.
-        \nCasters are expected to role-play and resolve their flaws and backlashes without complaint for the duration listed on the ritual scroll. Local chapters also have the discretion to generate a unique plot effect or encounter based on a ritual gone awry that may not be specified on the ritual scroll.
-        \n\n<b>Unwillng Targets:</b>
-        \nSometimes rituals are cast on unwilling recipients. The player of an unwilling recipient may inform the ritual marshal that he or she wishes her character to resurrect rather than accept the ritual. In the case of ritual effects delivered outside the context of a ritual casting, the player may choose to have their character immediately dissipate and head to the nearest earth circle for resurrection, following the normal rules.
-        \nIn such cases, the casting still continues for its proper duration and then the ritual marshal checks for failures normally. Any failures that could have a detrimental effect on the recipient of the ritual are ignored, and the failures affect the caster or others in the Circle normally.  A recipient of a ritual cannot choose to die in order to avoid the affects of an Obliteration, Banish to Other Plane, or Divestiture.
-        \nRemember that a caster cannot waylay, cast spells upon, or otherwise restrain a person inside the Circle of Power once the ritual casting begins.
+        \n\nA successful ritual follows the procedure set forth in “Success,” below. A ritual that fails or backlashes follows the procedure set forth in “Failure,” below.
+        \n\n<b>Success</b>
+        \n\nThe ritual marshal either awards the successful caster a temporary tag for the ritual conducted or makes sure the ritual effect is carried out by informing the Plot Committee or by personally overseeing the ritual’s effect. A temporary tag allows the ritual marshal to write down the rituals conducted and indicate that a permanent tag for the ritual should be awarded at the end of the event or at the beginning of the next event that the recipient of the ritual attends.
+        \n\nThe temporary tag should indicate the ritual’s name, duration, recipient, effect of the ritual, and any other pertinent information. The temporary tag should be signed by the ritual marshal. If any skills or spells were placed within the recipient, the tags for those skills and spells should be attached to the temporary tag. Recipients should make sure the temporary tag has accurate information and is signed by the proper staff member(s).
+        \n\nPlease note that the Plot Committee reserves the right to assign plot effects that may not be set forth in the ritual scroll. When this occurs, the Plot Committee will likely designate such plot effects effective only in the local chapter.
+        \n\n<b>Failure or Backlash</b>
+        \n\nIf the ritual fails or backlashes, a ritual marshal will determine the effect, if any, of the failure or backlash based on the scroll’s charts. Any lasting effects will be written on the player cards of any individuals affected.
+        \n\nCasters are expected to role-play and resolve their flaws and backlashes without complaint for the duration listed on the ritual scroll. Local chapters also have the discretion to generate a unique plot effect or encounter based on a ritual gone awry that may not be specified on the ritual scroll.
+        \n\n<b>Unwillng Targets</b>
+        \n\nSometimes rituals are cast on unwilling recipients. The player of an unwilling recipient may inform the ritual marshal that he or she wishes her character to resurrect rather than accept the ritual. In the case of ritual effects delivered outside the context of a ritual casting, the player may choose to have their character immediately dissipate and head to the nearest earth circle for resurrection, following the normal rules.
+        \n\nIn such cases, the casting still continues for its proper duration and then the ritual marshal checks for failures normally. Any failures that could have a detrimental effect on the recipient of the ritual are ignored, and the failures affect the caster or others in the Circle normally.  A recipient of a ritual cannot choose to die in order to avoid the affects of an Obliteration, Banish to Other Plane, or Divestiture.
+        \n\nRemember that a caster cannot waylay, cast spells upon, or otherwise restrain a person inside the Circle of Power once the ritual casting begins.
     </string>
 
     <!-- After Casting Strings -->
 
-    <string name="after_casting"><b>Clean-up:</b>
+    <string name="after_casting"><b>Clean-up</b>
         \nOnce success or failure has been resolved, the ritual marshal should collect all ritual components and ritual scrolls consumed in the rituals. These will be turned into the Logistics staff to be registered in the campaign’s database. If there are more components in the caster’s possession than were needed to cast the ritual, the caster may designate which components were consumed as long as they meet the requirements set forth in the ritual scroll.</string>
 
     <!-- Ritual Manipulations Strings -->
