@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Alliance Ritual Marshal</string>
-    <string name="first_tab">Begin</string>
-    <string name="second_tab">Casting</string>
-    <string name="third_tab">After</string>
 
     <!-- Before Casting Strings -->
 
@@ -66,5 +63,103 @@
         \n\nThis is accomplished by rolling either two ten-sided die (with one representing the “ten” column and one representing the “ones” column) or rolling one die twice – first for the tens digit then again for the ones digit.
         \n\nThe caster must have five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
     </string>
+    <string name="rit_manip_insert_component"><b>Insert Component</b>
+        \n\nThis allows the caster to substitute one component for a different one listed on the Ritual scroll. The caster needs to have at least one each of the components listed on the scroll; this allows for “additional reagents” for higher casting.
+        \n\nThe caster must have five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_lore_answer"><b>Lore Answer</b>
+        \n\nThis ability allows the caster to enter a note on the magic item tag which dictates what information, if any, the caster of a Lore ritual will receive.
+        \n\nFor each purchase of this ability, the caster may stipulate one “answer” which will be the first answer the caster of the Lore Ritual will receive from Plot. It is up to the discretion of Plot how much, if anything, the caster of the Lore ritual will receive beyond this answer.
+        \n\nThe caster must have five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_second_chance"><b>Second Chance</b>
+        \n\nThis allows the caster to make a second die roll if the first fails. For every purchase of this manipulation, the caster gains a 10% chance to avoid failing the ritual (up to a maximum of 50%).
+        \n\nThis can only be used once per ritual. Points for this must be allocated prior to casting the ritual.
+        \n\nThe caster must have five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_conservative_casting"><b>Conservative Casting</b>
+        \n\nThis allows the use of one less component. This ability cannot be combined with any other skill that allows a reduction in component cost and may only be purchased once.
+        \n\nAll components as specified on the scroll must be present at the time of casting. After the ritual has been successfully cast, the caster may choose and retain the component(s) which were not consumed due to this Ritual Manipulation.
+        \n\n<i>For example: Belethevis wants to cast a Spirit Link which requires 4 reagents: a Truesilver, a Wand, a Penna, and a Heartstone. He uses a point of High Magic for Ritual Manipulation: Conservative Casting on the ritual. When he casts it, he has all four reagents as specified on the scroll to begin the casting. Once the ritual is complete, he decides to not have the Heartstone consumed.</i>
+        \n\nThe caster must have ten levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_disguised_casting"><b>Disguised Casting</b>
+        \n\nThis ability renders a ritual so that observers and creatures in the area are not informed they “feel magic all around them” thus preventing the magical emanations which would alert creatures to the presence of the ritual caster. In addition, anyone studying the ritual is unable to determine if the ritual is Earth, Celestial or Necromantic in nature.
+        \n\nThe caster must have ten levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_quicken_casting"><b>Quicken Casting</b>
+        \n\nThis will reduce casting time by 20% with a maximum time reduction of 80% (with four purchases). The target of this ritual may refuse to allow the time reduction to work. This ability will not work with any ritual which is listed as “unavoidable” such as Obliterate, Divestiture, or Banish to Other Plane.
+        \n\nThe caster must have ten levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast
+    </string>
+    <string name="rit_manip_spark_of_empowerment"><b>Spark of Empowerment</b>
+        \n\nWith this, a caster can “supercharge” the ritual they are casting, granting a greater effect for twenty-four hours or until the next Logistics Period, whichever is shorter. This cannot be extended by any means. After this period, these items return to their base ritual stats as the magic settles down.
+        \n\nThe exact nature of how a ritual is more effective is up to the local Plot team. The more impressive role-playing and ritual casting performed, the greater the Empowerments.
+        \n\nThis ability cannot be stacked with other Empowerment abilities.
+        \n\nThe caster must have ten levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_choose_flaw"><b>Choose Flaw</b>
+        \n\nThe caster may choose to add a flaw to the item from one of the following flaws. The caster may purchase this manipulation multiple times to add more flaws on items.
+        \n\n• Limit the item’s use to a specific race or prohibit a specific race from using this item
+        \n• Require a specific Build Skill to use or requiring the user not have a specific Build Skill
+        \n• Require a certain action, phrase or gesture before, during or after activating
+        \n• Require the item be worn or held or manipulated in a certain way
+        \n• The item will only function under specific conditions (such as time of day or in specific weather)
+        \n• The bearer of the item takes half damage from &lt;stone, lightning, ice, or flame&gt; while taking double damage from &lt;stone, lightning, ice, or flame&gt;. (Note: this can never affect healing).
+        \n\nIf contradictory flaws exist, the item is rendered unusable. Flaws are applied to an item, not to specific rituals. Thus, so long as an item retains any rituals (and thus a Magic Item tag), all flaws on that item remain.
+        \n\nThe caster must have fifteen levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+        \n\nNote: Flaws do not apply if a player does not know about them, however, any communication about the item’s powers (such as Identification or handing an item off from one person to another) must include an OOG communication detailing the flaws.
+        \n\n<i>For example: Terin picks up an unidentified item. He doesn’t know the flaws or benefits yet. Later he goes and gets it Identified. At this time, he’s given the tag and the flaw is told to him (“You take double damage from Flame”). Terin then sells the item to Ena, telling Ena only about the benefits in-game (“Look, this does a Purify twice a day!”), but when he hands over the tag he also is required to tell Ena OOG about the flaw.</i>
+        \n\nThe intent of this clarification is that players with knowledge of any powers of the item should also (even if only OOG) be informed of the flaws of the item.
+    </string>
+    <string name="rit_manip_obvious_power"><b>Obvious Power</b>
+        \n\n This allows the caster to create an item which has a flaw added to it where anyone who inspects the item is able to identify the Aspect of the magic (Earth, Celestial or Necromantic) without the need for a Greater Celestial Circle of Power or a Lore ritual.
+        \n\nIf an Obfuscate ritual exists on an item or is added to the item at any later time while this ritual is still active, this ability will be removed.
+        \n\nThe caster must have fifteen levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast
+    </string>
+    <string name="rit_manip_terminate_ritual"><b>Terminate Ritual</b>
+        \n\nThis ability allows the caster to voluntarily end the ritual casting with no ill effects. At any time during the ritual, the caster may activate the ability, ending the casting and retaining possession of all the ritual components and scrolls as if the ritual had not been started.
+        \n\nThe caster must have twenty levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast
+    </string>
+    <string name="rit_manip_touch_of_empowerment"><b>Touch of Empowerment</b>
+        \n\nThis allows the caster to “supercharge” the ritual they are casting, granting a greater effect for a maximum of five days, which cannot be extended by any means. After the five day duration, these items return to their base ritual stats as the magic settles down.
+        \n\nThe exact nature of how a ritual is more effective is up to the local Plot team. The more impressive role-playing and ritual casting performed, the greater the Empowerments.
+        \n\nThis ability cannot be stacked with other Empowerment abilities.
+        \n\nThe caster must have twenty levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_true_conservation"><b>True Conservation</b>
+        \n\nThis allows the caster to use two less components. All components as specified on the scroll must be present at the time of casting. After the ritual has been successfully cast, the caster may choose and retain the component(s) which were not consumed due to this Ritual Manipulation.
+        \n\n<i>For example: Belthivis wants to cast a Spirit Link which requires four reagents: a Truesilver, a Wand, a Penna, and a Heartstone. He uses a point of High Magic for Ritual Manipulation: Conservative Casting on the ritual.
+        \n\nWhen he casts it, he must have all four reagents as specified on the scroll to begin the casting (as per the rulebook). However, after he successfully casts it, he can pick one reagent of his choice which is not consumed in the casting.</i>
+        \n\nThis can only be purchased once and cannot be combined with any other skill that allows a reduction in component cost.
+        \n\nThe caster must have twenty-five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_alternate_component"><b>Alternate Component</b>
+        \n\nThe caster may add one additional “base component” to the scroll, allowing them to gather resources easier.
+        \n\n<i>For example, Belthivis has a scroll requiring three components: Wand, Pyrotis and Jetsam. With this skill, he can now add Feyander to the list. He needs twenty-four components total for the ritual, so now he can mix and match from these four reagents as long as there is at least one each of the Wand, Pyrotis and Jetsam listed on the scroll.</i>
+        \n\nThe caster must have thirty levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+    <string name="rit_manip_true_empowerment"><b>True Empowerment</b>
+        \n\nThis allows the caster to “supercharge” the ritual they are casting, granting a greater effect for a maximum of five days, which cannot be extended by any means.
+        \n\nAfter the five day duration, these items return to their base ritual stats as the magic settles down.
+        \n\nThe exact nature of how a ritual is more effective is up to the local Plot team. The more impressive role-playing and ritual casting performed, the greater the Empowerments.
+        \n\nDifferent kinds of Empowerments cannot stack on an item. Only one type of Empowerment (Spark of Empowerment, Touch of Empowerment or True Empowerment) can be on any one item at a time. Also, only one Empowerment of the same type can be on one item at a time.
+        \n\nIf a flaw duplicates a ritual effect (such as Cloak, Bane, per day or times ever, etc.) it must be counted against the twenty ritual limit of an item. Flaws which do not duplicate ritual effects will not count against the twenty ritual limit of an item.
+        \n\nUnlike other Empowerment abilities, when a True Empowered ritual fades back to normal, it will leave behind a beneficial Flaw on the item subject to the discretion of the Plot Committee.
+        \n\nThis Flaw will remain with the ritual for its entire duration and is not subject to the five day expiration.
+        \n\nThe caster must have thirty-five levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast
+    </string>
+    <string name="rit_manip_casting_insight"><b>Casting Insight</b>
+        \n\nThis ability allows the caster to roll twice to determine the success chance of their ritual. The caster can then choose whichever die roll result they prefer of the two. These results are taken before any other Manipulations or High Magic abilities are used.
+        \n\nThis ability may only be purchased once per ritual.
+        \n\nThe caster must have forty levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
+    </string>
+
+    <!-- Placeholder String -->
+
+<!--
+    <string name="rit_manip_improved_chance"><b></b>
+        \n\n
+    </string>
+-->
 
 </resources>
