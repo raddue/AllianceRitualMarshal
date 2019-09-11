@@ -3,24 +3,25 @@ package com.radaedalus.allianceritualmarshal
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.radaedalus.allianceritualmarshal.ui.main.FirstFragment
-import com.radaedalus.allianceritualmarshal.ui.main.FourthFragment
-import com.radaedalus.allianceritualmarshal.ui.main.SecondFragment
-import com.radaedalus.allianceritualmarshal.ui.main.ThirdFragment
+import com.radaedalus.allianceritualmarshal.ui.main.BeforeCastFragment
+import com.radaedalus.allianceritualmarshal.ui.main.RitualManipsFragment
+import com.radaedalus.allianceritualmarshal.ui.main.DuringCastFragment
+import com.radaedalus.allianceritualmarshal.ui.main.AfterCastFragment
 
+@Suppress("DEPRECATION")
 class MyPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
     override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> {
-                FirstFragment()
+                BeforeCastFragment()
             }
             1 -> {
-                SecondFragment()
+                DuringCastFragment()
             }
-            2 -> ThirdFragment()
+            2 -> AfterCastFragment()
             else -> {
-                return FourthFragment()
+                return RitualManipsFragment()
             }
         }
     }

@@ -12,14 +12,14 @@ import com.radaedalus.allianceritualmarshal.R
 /**
  * A simple [Fragment] subclass.
  */
-class SecondFragment : Fragment() {
+class DuringCastFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_second, container, false)
+        return inflater.inflate(R.layout.fragment_during_cast, container, false)
     }
 
 
