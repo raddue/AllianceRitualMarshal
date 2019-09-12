@@ -60,9 +60,24 @@
         \n3. What the aspect of ritual was.
         \n4. What flaws (if applicable).
         \n5. Whether the rituals were Restricted or LCO.
-        \n6. Time remaining for ritual batch.
+        \n6. Time remaining for ritual batch in date format.
         \n7. Description of the physrep, if cast onto an item.
+        \n8. What character the rituals were cast for.
         \n\nOne of the temporary tags stays with the caster of the ritual and the other is turned into Logistics.  After the event, the Logistics team will enter the tag into the Magic Item database and the player will receive the official tag at the next event.
+        \n\n<b>Example Temporary Tag</b>
+        \n\n1x Potion Coating
+        \n3x Poison Cache
+        \n1x Poison Trigger
+        \n1x Magical Imbuement
+        \n1x Preserve Duration
+        \nMarshal: Tabitha Marshal
+        \nEarth
+        \nNo flaws
+        \n9/19/2024
+        \nBlack obsidian sword with green etching
+        \nLCO
+        \nMade for: Ruby Poisonblade
+        \n
     </string>
 
     <!-- Ritual Manipulations Strings -->
