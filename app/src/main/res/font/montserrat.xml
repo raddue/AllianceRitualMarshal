@@ -9,4 +9,9 @@
         android:fontStyle="italic"
         android:font="@font/montserrat_italic"
         tools:targetApi="o" />
+    <font
+        android:fontWeight="400"
+        android:fontStyle="normal"
+        android:font="@font/montserrat_bold"
+        tools:targetApi="o" />.
 </font-family>
