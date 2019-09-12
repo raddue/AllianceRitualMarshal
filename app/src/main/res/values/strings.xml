@@ -4,8 +4,8 @@
     <!-- Before Casting Strings -->
 
     <string name="begin_casting"><b>Get Ritual Ready</b>
-        \nUpon arrival, the ritual marshal will take the following steps, with which the players involved should cooperate:
-        \n• Ritual marshal identifies the primary caster and any additional casters who will assist in the ritual;
+        \n\nUpon arrival, the ritual marshal will take the following steps, with which the players involved should cooperate:
+        \n\n• Ritual marshal identifies the primary caster and any additional casters who will assist in the ritual;
         \n• Ritual marshal reviews the casters’ player cards to note how many levels of the appropriate school of Formal Magic they possess. Note that a Ritual Caster may choose to not use all of their Ritual Levels when casting if they so desire;
         \n• Ritual marshal reads the first ritual scroll thoroughly, asking relevant questions. For example, if the scroll has the ability to cast a more powerful form of the ritual, the marshal should ask the player what level of the ritual the caster is attempting;
         \n• Ritual marshal confirms that all the required components and recipients are present within a valid Circle of Power;
@@ -51,7 +51,19 @@
     <!-- After Casting Strings -->
 
     <string name="after_casting"><b>Clean-up</b>
-        \nOnce success or failure has been resolved, the ritual marshal should collect all ritual components and ritual scrolls consumed in the rituals. These will be turned into the Logistics staff to be registered in the campaign’s database. If there are more components in the caster’s possession than were needed to cast the ritual, the caster may designate which components were consumed as long as they meet the requirements set forth in the ritual scroll.</string>
+        \n\nOnce success or failure has been resolved, the ritual marshal should collect all ritual components and ritual scrolls consumed in the rituals. These will be turned into the Logistics staff to be registered in the campaign’s database. If there are more components in the caster’s possession than were needed to cast the ritual, the caster may designate which components were consumed as long as they meet the requirements set forth in the ritual scroll.
+    </string>
+    <string name="logistics_notes"><b>Logistics Notes</b>
+        \n\nThe Ritual Marshal is responsible for ensuring that two copies of the temporary item tag are created with the following information:
+        \n1. Name of all rituals cast in batch.
+        \n2. Who the Ritual marshal was.
+        \n3. What the aspect of ritual was
+        \n4. What flaws (if applicable).
+        \n5. Whether the rituals were Restricted or LCO.
+        \n6. Time remaining for ritual batch.
+        \n7. Description of the physrep, if cast onto an item.
+        \n\nOne of the temporary tags stays with the caster of the ritual and the other is turned into Logistics.
+    </string>
 
     <!-- Ritual Manipulations Strings -->
 
