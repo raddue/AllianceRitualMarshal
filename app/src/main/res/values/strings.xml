@@ -62,7 +62,7 @@
         \n5. Whether the rituals were Restricted or LCO.
         \n6. Time remaining for ritual batch.
         \n7. Description of the physrep, if cast onto an item.
-        \n\nOne of the temporary tags stays with the caster of the ritual and the other is turned into Logistics.
+        \n\nOne of the temporary tags stays with the caster of the ritual and the other is turned into Logistics.  After the event, the Logistics team will enter the tag into the Magic Item database and the player will receive the official tag at the next event.
     </string>
 
     <!-- Ritual Manipulations Strings -->
