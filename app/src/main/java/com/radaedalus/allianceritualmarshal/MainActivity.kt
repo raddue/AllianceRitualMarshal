@@ -18,10 +18,22 @@ class MainActivity : AppCompatActivity() {
 
         tabs_main.setupWithViewPager(viewpager_main)
 
-        val fab: View = findViewById(R.id.fab)
+        val fab: View = findViewById(R.id.fab_main)
         fab.setOnClickListener {
             Toast.makeText(applicationContext, "Add countdown and roll features here", Toast.LENGTH_LONG)
                 .show()
         }
+    }
+
+    fun openMenu() {
+
+    }
+
+    fun closeMenu() {
+
+    }
+
+    fun onClick() {
+
     }
 }

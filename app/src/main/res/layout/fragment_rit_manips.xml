@@ -26,22 +26,6 @@
                 android:paddingLeft="10sp"
                 android:paddingTop="10sp"
                 android:paddingRight="10sp"
-                android:paddingBottom="0sp"
-                android:scrollbars="vertical"
-                android:text="@string/rit_manip_title"
-                android:textAllCaps="true"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="AllCaps" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10sp"
-                android:paddingTop="10sp"
-                android:paddingRight="10sp"
                 android:paddingBottom="10sp"
                 android:text="@string/rit_manip_casters_mark"
                 android:textSize="14sp"

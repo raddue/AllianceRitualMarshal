@@ -14,4 +14,4 @@
 2. (NOT STARTED) Variable timer.
 3. (NOT STARTED) Difficulty calculator based on caster Formal level and Scroll difficulty.
 4. (NOT STARTED) Die roller.
-5. (IN PROGRESS) Ritual manipulation list with descriptions.
+5. (DONE) Ritual manipulation list with descriptions.
