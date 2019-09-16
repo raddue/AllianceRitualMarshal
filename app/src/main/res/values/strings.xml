@@ -182,6 +182,17 @@
         \n\nThis ability may only be purchased once per ritual.
         \n\nThe caster must have forty levels of Formal Magic from the appropriate school above the difficulty of the ritual to be cast.
     </string>
+    <string name="nav_header_title">Ritual Marshal</string>
+    <string name="nav_header_subtitle">Alliance LARP</string>
+    <string name="nav_header_desc">Alliance LARP Ritual Marshal</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="communications">Communications</string>
 
     <!-- Placeholder String -->
 
