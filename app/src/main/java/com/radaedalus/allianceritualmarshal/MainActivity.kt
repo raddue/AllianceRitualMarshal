@@ -8,6 +8,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    val translationY = 100f
+    val translationX = 100f
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -16,9 +19,13 @@ class MainActivity : AppCompatActivity() {
         viewpager_main.adapter = fragmentAdapter
 
         tabs_main.setupWithViewPager(viewpager_main)
+        initFabMenu()
+    }
 
+    fun initFabMenu() {
         fab_timer.setAlpha(0f)
         fab_roll.setAlpha(0f)
+
 
         val fabMain: View = findViewById(R.id.fab_main)
         fabMain.setOnClickListener {
@@ -27,13 +34,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         val fabRoll: View = findViewById(R.id.fab_roll)
-        fab_roll.setOnClickListener {
+        fabRoll.setOnClickListener {
             Toast.makeText(applicationContext, "Add roll feature here", Toast.LENGTH_LONG)
                 .show()
         }
 
         val fabTimer: View = findViewById(R.id.fab_timer)
-        fab_timer.setOnClickListener {
+        fabTimer.setOnClickListener {
             Toast.makeText(applicationContext, "Add timer feature here", Toast.LENGTH_LONG)
                 .show()
         }
