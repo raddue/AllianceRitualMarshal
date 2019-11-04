@@ -16,18 +16,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        toolbar = findViewById(R.id.toolbar) as Toolbar
-        fab_main = findViewById(R.id.fab_main)
-        fab_roll = findViewById(R.id.fab_roll)
-        fab_timer = findViewById(R.id.fab_timer)
-
         val fragmentAdapter = MyPagerAdapter(supportFragmentManager)
         viewpager_main.adapter = fragmentAdapter
 
         tabs_main.setupWithViewPager(viewpager_main)
+
+        fab_main = findViewById(R.id.fab_main)
+        fab_roll = findViewById(R.id.fab_roll)
+        fab_timer = findViewById(R.id.fab_timer)
     }
 
-//    fun initFabMenu() {
+    fun openMenu() {
+
+    }
+
+    fun closeMenu() {
+
+    }
+
+    fun onClick() {
+
+    }
+
+    //    fun initFabMenu() {
 //        fab_timer.setAlpha(0f)
 //        fab_roll.setAlpha(0f)
 //
@@ -50,16 +61,4 @@ class MainActivity : AppCompatActivity() {
 //                .show()
 //        }
 //    }
-
-    fun openMenu() {
-
-    }
-
-    fun closeMenu() {
-
-    }
-
-    fun onClick() {
-
-    }
 }

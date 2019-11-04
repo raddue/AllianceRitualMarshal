@@ -34,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/tabs_main"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:ignore="NotSibling" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="fill_parent"
@@ -58,7 +59,8 @@
                 app:fabSize="mini"
                 app:maxImageSize="30dp"
                 app:rippleColor="@color/colorPrimary"
-                app:srcCompat="@drawable/ic_timer_white_24dp" />
+                app:srcCompat="@drawable/ic_timer_white_24dp"
+                app:elevation="0dp"/>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fab_roll"
@@ -68,7 +70,8 @@
                 app:fabSize="mini"
                 app:maxImageSize="30dp"
                 app:rippleColor="@color/colorPrimary"
-                app:srcCompat="@drawable/ic_whatshot_white_24dp" />
+                app:srcCompat="@drawable/ic_whatshot_white_24dp"
+                app:elevation="0dp"/>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fab_main"
@@ -78,7 +81,8 @@
                 app:fabSize="normal"
                 app:maxImageSize="44dp"
                 app:rippleColor="@color/colorPrimary"
-                app:srcCompat="@drawable/ic_add_white_24dp" />
+                app:srcCompat="@drawable/ic_add_white_24dp"
+                app:elevation="0dp"/>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
