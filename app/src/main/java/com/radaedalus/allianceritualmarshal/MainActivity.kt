@@ -1,16 +1,13 @@
 package com.radaedalus.allianceritualmarshal
 
 import android.os.Bundle
-import android.widget.Toolbar
+import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var fab_main: FloatingActionButton
-    private lateinit var fab_timer: FloatingActionButton
-    private lateinit var fab_roll: FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,10 +18,28 @@ class MainActivity : AppCompatActivity() {
 
         tabs_main.setupWithViewPager(viewpager_main)
 
-        fab_main = findViewById(R.id.fab_main)
-        fab_roll = findViewById(R.id.fab_roll)
-        fab_timer = findViewById(R.id.fab_timer)
+        initFabMenu()
     }
+
+    fun initFabMenu() {
+
+        val fabMain: View = findViewById<FloatingActionButton>(R.id.fab_main)
+        fabMain.setOnClickListener {
+            Toast.makeText(applicationContext, "Add slide out feature here", Toast.LENGTH_SHORT)
+                .show()
+        }
+
+        val fabRoll: View = findViewById<FloatingActionButton>(R.id.fab_roll)
+        fabRoll.setOnClickListener {
+            Toast.makeText(applicationContext, "Add roll feature here", Toast.LENGTH_SHORT)
+                .show()
+        }
+
+        val fabTimer: View = findViewById<FloatingActionButton>(R.id.fab_timer)
+        fabTimer.setOnClickListener {
+            Toast.makeText(applicationContext, "Add timer feature here", Toast.LENGTH_SHORT)
+                .show()
+        }
 
     fun openMenu() {
 
@@ -38,27 +53,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //    fun initFabMenu() {
-//        fab_timer.setAlpha(0f)
-//        fab_roll.setAlpha(0f)
-//
-//
-//        val fabMain: View = findViewById(R.id.fab_main)
-//        fabMain.setOnClickListener {
-//            Toast.makeText(applicationContext, "Add slide out feature here", Toast.LENGTH_LONG)
-//                .show()
-//        }
-//
-//        val fabRoll: View = findViewById(R.id.fab_roll)
-//        fabRoll.setOnClickListener {
-//            Toast.makeText(applicationContext, "Add roll feature here", Toast.LENGTH_LONG)
-//                .show()
-//        }
-//
-//        val fabTimer: View = findViewById(R.id.fab_timer)
-//        fabTimer.setOnClickListener {
-//            Toast.makeText(applicationContext, "Add timer feature here", Toast.LENGTH_LONG)
-//                .show()
-//        }
-//    }
+    }
 }
