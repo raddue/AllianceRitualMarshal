@@ -32,15 +32,11 @@ class MainActivity : AppCompatActivity() {
         val fabRoll: View = findViewById<FloatingActionButton>(R.id.fab_roll)
         fabRoll.setOnClickListener {
             DieRollerActivity.start(this)
-            Toast.makeText(applicationContext, "Add roll feature here", Toast.LENGTH_SHORT)
-                .show()
         }
 
         val fabTimer: View = findViewById<FloatingActionButton>(R.id.fab_timer)
         fabTimer.setOnClickListener {
             TimerActivity.start(this)
-            Toast.makeText(applicationContext, "Add timer feature here", Toast.LENGTH_SHORT)
-                .show()
         }
 
     fun openMenu() {
