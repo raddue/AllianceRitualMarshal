@@ -1,5 +1,7 @@
 package com.radaedalus.allianceritualmarshal
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -9,6 +11,12 @@ class TimerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.timer_main)
 
+    }
+
+    companion object {
+        fun start(context : Context) {
+            context.startActivity(Intent(context, TimerActivity::class.java))
+        }
     }
 
 }

@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         initFabMenu()
     }
 
-    fun initFabMenu() {
+    private fun initFabMenu() {
 
         val fabMain: View = findViewById<FloatingActionButton>(R.id.fab_main)
         fabMain.setOnClickListener {
@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         val fabTimer: View = findViewById<FloatingActionButton>(R.id.fab_timer)
         fabTimer.setOnClickListener {
+            TimerActivity.start(this)
             Toast.makeText(applicationContext, "Add timer feature here", Toast.LENGTH_SHORT)
                 .show()
         }
